@@ -1,0 +1,67 @@
+{
+  "window.zoomLevel": -1,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 29,
+  "editor.lineHeight": 40,
+  "editor.letterSpacing": 0.5,
+  "workbench.editor.tabSizing": "shrink",
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.tabSize": 2,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "files.autoSave": "off",
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.iconTheme": "material-icon-theme",
+  "javascript.validate.enable": true,
+  "update.channel": "default",
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/wsmith/.vscodestyles.css"
+  ],
+  "workbench.sideBar.location": "left",
+  "editor.formatOnSave": false,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\bash.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "-c",
+    "zsh"
+  ],
+  "team.showWelcomeMessage": false,
+  "ruby.lint": {
+    "rubocop": true,
+    "ruby": true
+  },
+  "git.enableSmartCommit": true,
+  "sublimeTextKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnPaste": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "entity.other.attribute-name.jsx",
+          "variable.language.this.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "git.autofetch": true,
+  "material-icon-theme.showUpdateMessage": false,
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "php.executablePath": "C:\\xampp\\php\\php.exe",
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+  "pasteAndIndent.selectAfter": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
