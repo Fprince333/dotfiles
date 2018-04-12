@@ -10,8 +10,6 @@
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
-  "terminal.external.osxExec": "iTerm.app",
-  "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -33,7 +31,7 @@
   "team.showWelcomeMessage": false,
   "ruby.lint": {
     "rubocop": true,
-    "ruby": true
+    "ruby": true //Runs ruby -wc
   },
   "git.enableSmartCommit": true,
   "sublimeTextKeymap.promptV3Features": true,
@@ -45,7 +43,9 @@
       {
         "scope": [
           "entity.other.attribute-name.jsx",
-          "variable.language.this.js"
+          "variable.language.this.js",
+          "entity.other.attribute-name.html",
+          "meta.attribute-with-value.id.html"
         ],
         "settings": {
           "fontStyle": "italic"
